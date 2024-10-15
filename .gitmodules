@@ -1,0 +1,3 @@
+[submodule "apps/apps/backend"]
+	path = apps/apps/backend
+	url = https://github.com/Lavish1999/backend.git

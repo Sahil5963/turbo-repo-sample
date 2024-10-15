@@ -5,7 +5,11 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "pull-all": "./manage-repos.sh pull",
+    "push-all": "./manage-repos.sh push",
+    "status-all": "./manage-repos.sh status",
+    "commit-all": "./manage-repos.sh commit"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

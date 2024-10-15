@@ -27,6 +27,8 @@ out/
 build
 dist
 
+# Ignore backend folder
+apps/backend/
 
 # Debug
 npm-debug.log*
