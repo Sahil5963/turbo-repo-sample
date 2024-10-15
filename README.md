@@ -2,6 +2,39 @@
 
 This is an official starter Turborepo.
 
+## Getting Started
+
+1. Clone this repository:
+
+   ```
+   git clone <your-turborepo-url>
+   cd <your-turborepo-directory>
+   ```
+
+2. Initialize all repositories:
+
+   ```
+   npm run init-repos
+   ```
+
+3. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Run the development server:
+   ```
+   npm run dev
+   ```
+
+## Managing Repositories
+
+- To pull changes in all repositories: `npm run pull-all`
+- To push changes in all repositories: `npm run push-all`
+- To check status of all repositories: `npm run status-all`
+- To commit changes in all repositories: `npm run commit-all "Your commit message"`
+
 ## Using this example
 
 Run the following command:
